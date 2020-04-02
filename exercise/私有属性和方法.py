@@ -1,5 +1,9 @@
 #coding=utf-8
 
+_num = 1
+num = 11
+
+
 class Person():
     def __init__(self,name,age,hobby):
         self.name = name
@@ -21,13 +25,19 @@ class Student(Person):
         print(self._age)
         print(self.__hobby)
 
-s1 = Student('su',25,'baseball')
+# s1 = Student('su',25,'baseball')
+# # s1.show_student()
+# s1.show_person()
+# print("*" * 20)
+# s1.construction('li',30,'cook')
+# s1.show_person()
+# print("*" * 20)
 # s1.show_student()
-s1.show_person()
-print("*" * 20)
-s1.construction('li',30,'cook')
-s1.show_person()
-print("*" * 20)
-s1.show_student()
+
+# def test():
+#     print("---test----")
+
+
+
 
 
