@@ -10,6 +10,8 @@ class LoginPage(BasePage):
     Url = "https://account.cnblogs.com/signin?returnUrl=https%3A%2F%2Fwww.cnblogs.com%2F"
     UserName = (By.ID,"LoginName")
     PassWord = (By.ID,"Password")
+    # print(UserName)
+    # print(PassWord)
 
     def __init__(self,driver):
         super().__init__(driver=driver,url=self.Url)
